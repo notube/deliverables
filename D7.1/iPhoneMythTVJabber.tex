@@ -1,0 +1,111 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage,ifpdf,url,authblk,xspace}
+\usepackage{url}
+
+\renewcommand\Affilfont{\small}
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+
+
+\title{Making friends with your TV: combining iPhone, Jabber and MythTV with the Buttons Protocol}
+
+\author[1]{Dan Brickley}
+\author[2]{Vicky Buser}
+\author[2]{Libby Miller}
+\author[2]{Yves Raimond}
+\author[3]{Members of the NoTube project}
+
+\affil[1]{Vrije Universiteit, Amsterdam}
+\affil[2]{BBC, UK}
+\author[3]{Members of the NoTube project}
+
+\begin{document}
+
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+\abstract{This paper describes an implementation of  a way of `making friends' with your MythTV using XMPP, in order to get permission to control it remotely using an iPhone or similar companion device, and give it permission to act on your behalf to retrieve private information for display. \emph{Maybe we need to make this all much more restricted in scope}}
+
+\section{The Goal}
+
+The goal of this part of NoTube is to experiment with XMPP to see if it makes sense and is possible to use the notion of `making friends' in XMPP to:
+
+\begin{enumerate}
+\item{Allow a device to control a Media Centre}
+\item{Safely delegate authority from a device to a Media Centre to act on its behalf to access secure data}
+\end{enumerate}
+
+\section{The Rationale}
+
+As TV gets closer to the Web there are various privacy issues that need to be explored. In particular taking an activity ordinarily in the private sphere and exposing it the glare of social networks and the Web requires care with user privacy. In this area of NoTube, we are interested in using the tools of social networks to put control in the hands of the user - in particular, putting private information in a place that the user has control over and that is physically close to the user - a smart phone.
+
+At the same time we wanted to experiment with device control using non-IR technologies and open, extensible protocols. Many modern handheld devices do not have IR, but are nevertheless networked, and could be used to control media centres; in particular there could even be two-way communication between devices in order to improve the user experience of inputting text to a TV, finding out more information about a programme, viewing recommendations and other tasks associated with TV watching.
+
+This is one of the more experimental areas of research in the NoTube project, but somewhere where we feel we may be able to provide inspiration to further work in this area in existing open source software media centres.
+
+\section{Jabber}
+
+Jabber is an internet protocol (also known as XMPP) that sends short text messages in XML between a clients and servers. It has the notion of a roster (friends list), as well as chat messages (visible messages) and IQ messages (not visible to the user). It can also be used for group chats. Using Jabber you can create local networks, but each user address (which looks like an email address) is globally unique. One advantage of using Jabber is that every gmail / googlemail email address is also a Jabber ID, so Jabber identifiers are very widespread albeit not widely used; it's also quick to prototype as new gmail addresses can be created as needed. 
+
+In this demonstrator, each 'NoTube Network' entity (media centre aka `set top box', smart phone, touch table etc.) has a globally unique Internet address in the XMPP/Jabber system, which can be used for freeform two-way communication, regardless of whether the devices are on the same network, whether they are publically on the Internet, etc. This is achieved by using the existing global Jabber network, which is why we can use demo accounts like \url{bob.notube@gmail.com}.
+
+
+\section{Privacy and access control}
+
+@@ some stuff here outlining privacy concerns (controlling who sees what you are watching and indications of what you are watching) and access control issues (restricting who can control and access your TV, and from where!)@@
+
+\section{Making friends with your TV}
+
+@@section here on how XMPP/Jabber can help, in theory with privacy and access control issues@@
+
+\section{Buttons}
+
+@@...@@
+
+\section{Implementation}
+
+\subsection{Goals}
+
+@@working setup with iphone as remote, TV, accessing private external information.@@
+
+\subsection{Step by Step trust in Jabber}
+
+@@be useful to go through this in detail I think@@
+
+\subsection{Oauth and passwords on the iPhone}
+
+@@tum-te-tum@@
+
+\subsection{Using QR codes}
+
+Basically there are two pieces: how do devices learn enough about each other to become able to communicate; and how can they trust each other enough to accept commands and to answer questions.
+
+The QR code piece we have implemented primarily addresses the first piece, but with hints at contributions to the second.
+
+The QR Code stuff is all about communicating these addresses between devices without the user having to type them. This capability does not in itself require the phone to trust the TV or vice-versa, although it probably makes sense to package some basic entry-level trustyness into the pairing operation.
+ 
+\subsection{Using Bonjour protocols} 
+ 
+There are also some technical possibilities around shortcutting the use of networked jabber servers, for the convenient case when our media centre and remote *are* on the same LAN. This involves using the same Bonjour protocols you might know from Apple's stuff. How we deal with trust and access control in that situation isn't yet clear either; it might be that we require a link to have already been established through the slower route of public XMPP networks first, so that mischievous parties can't interpose themselves. There is some technical work to investigate there eg. including digital certificate info in the QR code, but I don't expect that to be done before the review.
+   
+
+
+\section{Issues / Future Work}
+
+* controlling remote access on TV (i.e. when you are not present, certain functions need to be disabled)
+* UI issues on iphone
+* Mythtv control slowness
+
+
+\end{document}
