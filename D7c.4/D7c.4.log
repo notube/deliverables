@@ -1,0 +1,412 @@
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.7.21)  12 OCT 2011 18:47
+entering extended mode
+\write18 enabled.
+ %&-line parsing enabled.
+**D7c.4.tex
+(./D7c.4.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, la
+tin, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, polish, portuguese, r
+omanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turki
+sh, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(./notube.cls
+Document Class: notube 
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2008/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2008/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+))
+(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count89
+\LTcapwidth=\dimen107
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
+\LT@p@ftn=\toks16
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+)
+\c@final=\count94
+\c@nature=\count95
+\c@dissemination-level=\count96
+\c@version-log-entry=\count97
+\c@section-offset=\count98
+\c@temp-section=\count99
+)
+(/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/capt-of.sty) (./D7c.4.aux
+(./abbreviations.aux))
+\openout1 = `D7c.4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen108
+\scratchbox=\box30
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen109
+\MPnumerator=\count104
+\everyMPtoPDFconversion=\toks18
+) <template-figures/FP7-gen-RGB.png, id=1, 790.955pt x 643.40375pt>
+File: template-figures/FP7-gen-RGB.png Graphic file (type png)
+
+<use template-figures/FP7-gen-RGB.png>
+<template-figures/notube-logo.png, id=2, 281.05pt x 50.1875pt>
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png>
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+
+(/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+) [1
+
+{/usr/local/texlive/2008/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./templ
+ate-figures/FP7-gen-RGB.png (PNG copy)> <./template-figures/notube-logo.png>]
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\OT1/cmr/bx/n/10 Authors (Part-
+ []
+
+
+Overfull \hbox (17.07182pt too wide) in paragraph at lines 52--52
+[] $[]$
+ []
+
+
+Overfull \hbox (17.07182pt too wide) in paragraph at lines 52--52
+[] $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\OT1/cmr/bx/n/10 Rev
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+(/usr/local/texlive/2008/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 52.
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [3
+
+]
+<template-figures/jpg/vua.jpg, id=25, 192.9609pt x 113.4639pt>
+File: template-figures/jpg/vua.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/vua.jpg>
+<template-figures/jpg/bbc.jpg, id=26, 2695.06876pt x 800.9925pt>
+File: template-figures/jpg/bbc.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/bbc.jpg>
+<template-figures/jpg/pronetics.jpg, id=27, 513.92pt x 124.465pt>
+File: template-figures/jpg/pronetics.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/pronetics.jpg>
+<template-figures/jpg/engin.png, id=28, 170.6375pt x 100.375pt>
+File: template-figures/jpg/engin.png Graphic file (type png)
+
+<use template-figures/jpg/engin.png>
+<template-figures/jpg/irt.jpg, id=29, 291.0875pt x 179.67125pt>
+File: template-figures/jpg/irt.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/irt.jpg>
+<template-figures/jpg/ot.jpg, id=30, 569.0058pt x 113.7048pt>
+File: template-figures/jpg/ot.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/ot.jpg>
+<template-figures/jpg/ou.jpg, id=31, 536.0025pt x 711.65875pt>
+File: template-figures/jpg/ou.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/ou.jpg>
+<template-figures/jpg/rai.jpg, id=32, 75.28125pt x 46.67438pt>
+File: template-figures/jpg/rai.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/rai.jpg>
+<template-figures/jpg/sti.jpg, id=33, 150.5625pt x 32.12pt>
+File: template-figures/jpg/sti.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/sti.jpg>
+<template-figures/jpg/stoneroos.jpg, id=34, 398.48875pt x 86.3225pt>
+File: template-figures/jpg/stoneroos.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/stoneroos.jpg>
+<template-figures/jpg/tgv.png, id=35, 925.056pt x 520.344pt>
+File: template-figures/jpg/tgv.png Graphic file (type png)
+
+<use template-figures/jpg/tgv.png>
+<template-figures/jpg/txt.jpg, id=36, 2071.74pt x 626.34pt>
+File: template-figures/jpg/txt.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/txt.jpg>
+<template-figures/jpg/kt.jpg, id=37, 680.7834pt x 337.7418pt>
+File: template-figures/jpg/kt.jpg Graphic file (type jpg)
+
+<use template-figures/jpg/kt.jpg>
+Underfull \vbox (badness 10000) detected at line 52
+ []
+
+File: template-figures/notube-logo.png Graphic file (type png)
+<use template-figures/notube-logo.png> [4
+
+ <./template-figures/jpg/vua.jpg> <./template-figures/jpg/bbc.jpg> <./template-
+figures/jpg/pronetics.jpg> <./template-figures/jpg/engin.png> <./template-figur
+es/jpg/irt.jpg> <./template-figures/jpg/ot.jpg> <./template-figures/jpg/ou.jpg>
+ <./template-figures/jpg/rai.jpg> <./template-figures/jpg/sti.jpg> <./template-
+figures/jpg/stoneroos.jpg> <./template-figures/jpg/tgv.png (PNG copy)> <./templ
+ate-figures/jpg/txt.jpg> <./template-figures/jpg/kt.jpg>] (./D7c.4.toc)
+\tf@toc=\write3
+\openout3 = `D7c.4.toc'.
+
+File: template-figures/notube-logo.png Graphic file (type png)
+ <use template-figures/notube-logo.png>
+[5
+
+] (./D7c.4.lof)
+\tf@lof=\write4
+\openout4 = `D7c.4.lof'.
+
+File: template-figures/notube-logo.png Graphic file (type png)
+ <use template-figures/notube-logo.png> [6
+
+] (./D7c.4.lot)
+\tf@lot=\write5
+\openout5 = `D7c.4.lot'.
+
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [7
+
+]
+\openout2 = `abbreviations.aux'.
+
+
+No file abbreviations.tex.
+Chapter 1.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+File: template-figures/notube-logo.png Graphic file (type png)
+<use template-figures/notube-logo.png> [8
+
+
+
+]
+<images/postcard.png, id=59, 1361.085pt x 899.36pt>
+File: images/postcard.png Graphic file (type png)
+ <use images/postcard.png>
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [9 <./images/postcard.png>]
+<images/year1.png, id=66, 334.3692pt x 188.8656pt>
+File: images/year1.png Graphic file (type png)
+ <use images/year1.png>
+Overfull \hbox (9.07408pt too wide) in paragraph at lines 140--140
+[][]$\OT1/cmtt/m/n/10 http : / / notube . tv / 2010 / 08 / 26 / connecting-[]br
+oadcast-[]tv-[]and-[]the-[]web-[]using-[]a-[]resolver/$| 
+ []
+
+File: template-figures/notube-logo.png Graphic file (type png)
+<use template-figures/notube-logo.png> [10 <./images/year1.png (PNG copy)>]
+<images/votey.png, id=71, 1008.76875pt x 499.8675pt>
+File: images/votey.png Graphic file (type png)
+ <use images/votey.png>
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[][]$\OT1/cmtt/m/n/10 http : / / www . bbc . co . uk / blogs / bbcinternet / 20
+08 / 10 / history _ of _ the _ bbc _ redux _ proje .
+ []
+
+File: template-figures/notube-logo.png Graphic file (type png)
+<use template-figures/notube-logo.png> [11 <./images/votey.png>]
+<images/notube-archive-browser.jpg, id=76, 1205.50375pt x 620.3175pt>
+File: images/notube-archive-browser.jpg Graphic file (type jpg)
+
+<use images/notube-archive-browser.jpg>
+Overfull \hbox (184.82257pt too wide) in paragraph at lines 173--173
+[][]$\OT1/cmtt/m/n/10 http : / / notube . tv / 2011 / 10 / 10 / n-[]screen-[]a-
+[]second-[]screen-[]application-[]for-[]small-[]group-[]exploration-[]of-[]on-[
+]demand-[]content/$| 
+ []
+
+<images/nscreen.png, id=77, 999.735pt x 679.53876pt>
+File: images/nscreen.png Graphic file (type png)
+ <use images/nscreen.png>
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [12 <./images/notube-archive-browser.jpg
+>] <images/tea.png, id=81, 866.23625pt x 666.49pt>
+File: images/tea.png Graphic file (type png)
+ <use images/tea.png>
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [13 <./images/nscreen.png>]
+<images/tea_player1.png, id=87, 284.47682pt x 213.3576pt>
+File: images/tea_player1.png Graphic file (type png)
+
+<use images/tea_player1.png>
+<images/tea_player2.png, id=88, 284.47682pt x 213.3576pt>
+File: images/tea_player2.png Graphic file (type png)
+
+<use images/tea_player2.png>
+File: template-figures/notube-logo.png Graphic file (type png)
+ <use template-figures/notube-logo.png> [14 <./images/tea.png> <./images/tea_pl
+ayer1.png>]
+File: template-figures/notube-logo.png Graphic file (type png)
+ <use template-figures/notube-logo.png>
+[15 <./images/tea_player2.png>] AED: lastpage setting LastPage
+File: template-figures/notube-logo.png Graphic file (type png)
+
+<use template-figures/notube-logo.png> [16] (./D7c.4.aux (./abbreviations.aux))
+ ) 
+Here is how much of TeX's memory you used:
+ 1941 strings out of 493876
+ 25862 string characters out of 1150568
+ 95623 words of memory out of 3000000
+ 5153 multiletter control sequences out of 10000+50000
+ 15959 words of font info for 60 fonts, out of 3000000 for 5000
+ 714 hyphenation exceptions out of 8191
+ 32i,15n,45p,848b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbsy10.pfb></usr/
+local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></usr/local/tex
+live/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/local/texlive/2008
+/texmf-dist/fonts/type1/bluesky/cm/cmbx8.pfb></usr/local/texlive/2008/texmf-dis
+t/fonts/type1/bluesky/cm/cmcsc10.pfb></usr/local/texlive/2008/texmf-dist/fonts/
+type1/bluesky/cm/cmr10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/blue
+sky/cm/cmr12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr
+7.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmr8.pfb></usr
+/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsl12.pfb></usr/local/te
+xlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss12.pfb></usr/local/texlive/200
+8/texmf-dist/fonts/type1/bluesky/cm/cmss17.pfb></usr/local/texlive/2008/texmf-d
+ist/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/local/texlive/2008/texmf-dist/fon
+ts/type1/bluesky/cm/cmsy10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/
+bluesky/cm/cmti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/c
+m/cmtt10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/ams/msam10
+.pfb>
+Output written on D7c.4.pdf (16 pages, 8766919 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

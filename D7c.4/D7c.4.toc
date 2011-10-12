@@ -1,0 +1,23 @@
+\contentsline {chapter}{List of figures}{6}
+\contentsline {chapter}{List of tables}{7}
+\contentsline {chapter}{\numberline {1}Introduction}{8}
+\contentsline {section}{\numberline {1.1}Deliverable Objective}{8}
+\contentsline {section}{\numberline {1.2}Approach}{8}
+\contentsline {section}{\numberline {1.3}What have we built?}{9}
+\contentsline {section}{\numberline {1.4}Live TV Companion}{10}
+\contentsline {subsection}{\numberline {1.4.1}iPhone Remote}{10}
+\contentsline {section}{\numberline {1.5}On-Demand Prototypes}{11}
+\contentsline {subsection}{\numberline {1.5.1}Archive Browser}{11}
+\contentsline {subsection}{\numberline {1.5.2}`N-Screen'}{12}
+\contentsline {section}{\numberline {1.6}Tools for Authoring and Playback of Second Screen Content}{13}
+\contentsline {subsection}{\numberline {1.6.1}TV Extras Authoring (`TEA')}{13}
+\contentsline {subsection}{\numberline {1.6.2}TEAPlayer}{14}
+\contentsline {section}{\numberline {1.7}What have we learned?}{15}
+\contentsline {subsection}{\numberline {1.7.1}Use metadata as an advert for the content that can flow out into the public Web in search of viewers}{15}
+\contentsline {subsection}{\numberline {1.7.2}Create URLs for the content items}{15}
+\contentsline {subsection}{\numberline {1.7.3}Agree on open APIs for controlling the TV and getting access to metadata from it}{15}
+\contentsline {section}{\numberline {1.8}Next steps}{16}
+\contentsline {subsection}{\numberline {1.8.1}Integration of personalised recommendations}{16}
+\contentsline {subsection}{\numberline {1.8.2}Evaluation and user testing}{16}
+\contentsline {subsection}{\numberline {1.8.3}Refining the TEA file format}{16}
+\contentsline {subsection}{\numberline {1.8.4}Completing and publishing an implementation of the `Buttons' Javascript API}{16}
