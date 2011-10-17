@@ -221,7 +221,7 @@
             \noindent\begin{tabular}{|@{\@spacer}p{3.5cm}@{\@spacer}|@{\@spacer}p{10cm}@{\@spacer}|}%
             \hline%
             Document Identifier: & 
-            \@spacer NoTube/2009/D{\delIDText}/Vx.x \@spacer \\
+            \@spacer NoTube/2009/D{\delIDText}/V0.9 \@spacer \\
             \hline%
             Class Deliverable: &
             \@spacer NoTube EU-IST-2009-231761\@spacer \\
@@ -328,17 +328,6 @@
         } 
         \vspace{1cm}
         
-        
-        %--------- DELETE THIS PART IN THE EC-READY VERSION
-        \noindent \begin{color}{NotubeRed} {\bf Important information for Quality Assessors/Quality Controllers\\
-        (PLEASE DELETE IN THE EC-READY VERSION)} \end{color}
-        {\bf\begin{itemize}
-          \item Send a PDF version AND a Latex/MS-Word of the deliverable to the Quality Assessor/Quality Controller to ensure that no links are broken, pictures are correctly converted, etc.,
-          \item ALL pictures in the deliverable must be B\&W readable,
-          \item After addressing the Quality Assessor's comments, report back to him/her using the review form. 
-        \end{itemize}}
-        %---------
-        
         \newpage%
     }
 
@@ -414,8 +403,8 @@
         \projectconsortiuminformation%
         \tableofcontents%
         \listoffigures\addcontentsline{toc}{chapter}{List of figures}%
-        \listoftables\addcontentsline{toc}{chapter}{List of tables}%
-        \include{abbreviations}
+        %\listoftables\addcontentsline{toc}{chapter}{List of tables}%
+        %\include{abbreviations}
         %\chapterfont{\sffamily}
         %\allsectionsfont{\sffamily}
         %\mainmatter%

@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.7.21)  17 OCT 2011 10:09
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.7.21)  17 OCT 2011 10:24
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -295,7 +295,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
 
-<images/summary.png, id=49, 399.894pt x 274.1442pt>
+<images/summary.png, id=49, 284.7438pt x 195.129pt>
 File: images/summary.png Graphic file (type png)
  <use images/summary.png>
 File: template-figures/notube-logo.png Graphic file (type png)
@@ -319,7 +319,7 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-<images/ns_original.png, id=57, 341.5962pt x 213.9192pt>
+<images/ns_original.png, id=57, 284.7438pt x 178.266pt>
 File: images/ns_original.png Graphic file (type png)
 
 <use images/ns_original.png>
@@ -339,7 +339,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-<images/ns_new.png, id=58, 341.5962pt x 256.7994pt>
+<images/ns_new.png, id=58, 284.7438pt x 213.9192pt>
 File: images/ns_new.png Graphic file (type png)
  <use images/ns_new.png>
 File: template-figures/notube-logo.png Graphic file (type png)
@@ -360,14 +360,14 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-<images/fry.png, id=63, 349.7868pt x 218.7372pt>
+<images/fry.png, id=63, 284.7438pt x 177.7842pt>
 File: images/fry.png Graphic file (type png)
  <use images/fry.png>
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-<images/dd.png, id=64, 341.5962pt x 256.7994pt>
+<images/dd.png, id=64, 284.7438pt x 213.9192pt>
 File: images/dd.png Graphic file (type png)
  <use images/dd.png>
 Missing character: There is no ‚ in font cmr12!
@@ -377,7 +377,7 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-<images/random.png, id=65, 340.1508pt x 221.628pt>
+<images/random.png, id=65, 284.7438pt x 185.493pt>
 File: images/random.png Graphic file (type png)
  <use images/random.png>
 File: template-figures/notube-logo.png Graphic file (type png)
@@ -389,10 +389,10 @@ File: template-figures/notube-logo.png Graphic file (type png)
 png>]
 File: template-figures/notube-logo.png Graphic file (type png)
  <use template-figures/notube-logo.png> [11 <./images/dd.png> <./images/random.
-png>] <images/group0.png, id=80, 365.6862pt x 214.401pt>
+png>] <images/group0.png, id=80, 284.7438pt x 166.7028pt>
 File: images/group0.png Graphic file (type png)
 
-<use images/group0.png> <images/group3.png, id=81, 372.9132pt x 214.401pt>
+<use images/group0.png> <images/group3.png, id=81, 284.7438pt x 163.812pt>
 File: images/group3.png Graphic file (type png)
 
 <use images/group3.png>
@@ -410,7 +410,7 @@ Missing character: There is no ® in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ® in font cmr12!
-<images/tea.png, id=91, 866.23625pt x 666.49pt>
+<images/tea.png, id=91, 284.06125pt x 218.8175pt>
 File: images/tea.png Graphic file (type png)
  <use images/tea.png>
 Missing character: There is no ‚ in font cmr12!
@@ -456,9 +456,15 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-Overfull \hbox (118.07294pt too wide) in paragraph at lines 211--211
-\OT1/cmtt/m/n/10 blog . nielsen . com / nielsenwire / online _ mobile / 40-[]of
--[]tablet-[]and-[]smartphone-[]owners-[]use-[]them-[]while-[]watching-[]tv/$| 
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[][]\OT1/cmr/m/n/10 For ex-am-ple: $\OT1/cmtt/m/n/10 http : / / ovum . com / 20
+11 / 10 / 04 / unlocking-[]the-[]second-[]screen/$ \OT1/cmr/m/n/10 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+\OT1/cmtt/m/n/10 http : / / blog . nielsen . com / nielsenwire / online _ mobil
+e / 40-[]of-[]tablet-[]and-[]smart \
  []
 
 Missing character: There is no ‚ in font cmr12!
@@ -597,7 +603,7 @@ usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/loc
 al/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></usr/local/texliv
 e/2008/texmf-dist/fonts/type1/bluesky/cm/cmtt10.pfb></usr/local/texlive/2008/te
 xmf-dist/fonts/type1/bluesky/ams/msam10.pfb>
-Output written on D7c.3.pdf (19 pages, 4467096 bytes).
+Output written on D7c.3.pdf (19 pages, 3832138 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
