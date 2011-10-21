@@ -306,7 +306,7 @@
             \noindent\begin{tabular}{|@{\@spacer}p{3.5cm}@{\@spacer}|@{\@spacer}p{11.3cm}@{\@spacer}|}%
             \hline%
             \textbf{Abstract} \par \textbf{(for dissemination)} & 
-            \@spacer \begin{minipage}{11.8cm}
+            \@spacer \begin{minipage}{11.2cm}
               \abstractText 
             \end{minipage} \@spacer \\
             \hline%

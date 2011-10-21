@@ -221,7 +221,7 @@
             \noindent\begin{tabular}{|@{\@spacer}p{3.5cm}@{\@spacer}|@{\@spacer}p{10cm}@{\@spacer}|}%
             \hline%
             Document Identifier: & 
-            \@spacer NoTube/2009/D{\delIDText}/V0.9 \@spacer \\
+            \@spacer NoTube/2009/D{\delIDText}/V1.0 \@spacer \\
             \hline%
             Class Deliverable: &
             \@spacer NoTube EU-IST-2009-231761\@spacer \\
