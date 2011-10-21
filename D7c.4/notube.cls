@@ -343,9 +343,9 @@
             \hline%
             \@partner{}{vua}{2.4}{Vrije Universiteit Amsterdam}{Guus Schreiber \par Phone: +31 20 598 7739/7718 \par Email: schreiber@cs.vu.nl}
             \@partner{}{bbc}{2.5}{British Broadcasting Corporation}{Libby Miller \par Phone: +44 787 65 65 561 \par Email: Libby.Miller@bbc.co.uk}
-            \@partner{}{pronetics}{2.3}{Pronetics S.p.A.}{TBA
-\par Phone: TBA
-\par Email: TBA
+            \@partner{}{pronetics}{2.3}{Pronetics S.p.A.}{Marco Bruni
+\par Phone: +39 06 45472503
+\par Email: marco.bruni@pro-netics.com
 }
             \@partner{}{engin}{2.3}{Engin Medya Hizmetleri A.S.} {Ron van der Heiden
 \par Phone: +31 6 2003 2006
@@ -377,7 +377,7 @@
 }
             \@partner{}{tgv}{1.3}{Thomson Grass Valley France SA}{Raoul Monnier
 \par Phone: +33 2 99 27 30 57
-\par Email: raoul.monnier@thomson.net
+\par Email: raoul.monnier@thomson-networks.com
 }
             \@partner{}{txt}{1.3}{TXT Polymedia SPA}{Sergio Gusmeroli
 \par Phone: +39 02 2577 1310
