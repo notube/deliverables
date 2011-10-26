@@ -7,12 +7,12 @@
 \contentsline {section}{\numberline {2.2}On-Demand Prototypes}{11}
 \contentsline {subsection}{\numberline {2.2.1}Archive Browser}{12}
 \contentsline {subsection}{\numberline {2.2.2}`N-Screen'}{12}
-\contentsline {section}{\numberline {2.3}Tools for Authoring and Playback of Second Screen Content}{16}
+\contentsline {section}{\numberline {2.3}Tools for Authoring and Playback of Second Screen Content}{15}
 \contentsline {subsection}{\numberline {2.3.1}TV Extras Authoring (`TEA')}{16}
-\contentsline {subsection}{\numberline {2.3.2}TEAPlayer}{16}
-\contentsline {section}{\numberline {2.4}Next steps}{16}
-\contentsline {section}{\numberline {2.5}Integration of personalised recommendations}{16}
-\contentsline {section}{\numberline {2.6}Evaluation and user testing}{18}
+\contentsline {subsection}{\numberline {2.3.2}TEAPlayer}{17}
+\contentsline {section}{\numberline {2.4}Next steps}{17}
+\contentsline {section}{\numberline {2.5}Integration of personalised recommendations}{17}
+\contentsline {section}{\numberline {2.6}Evaluation and user testing}{17}
 \contentsline {section}{\numberline {2.7}Refining the TEA file format}{18}
 \contentsline {section}{\numberline {2.8}Completing and publishing an implementation of the `Buttons' Javascript API}{18}
 \contentsline {chapter}{\numberline {3}What have we learned?}{19}

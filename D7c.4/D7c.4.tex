@@ -120,7 +120,7 @@ We have made prototypes in three main areas:
 
 \section{Live TV Companion}
 
-The basis of our first prototype was: `Do you want to know more?', a reference to the film `Starship Troopers' in which each news item ends with various options for further related exploration, producing the possibility of a non-linear exploration through the available content. We wanted to create the means for viewers to explore what they are watching more deeply using a connected second screen. This type of exploration is a very common reason for using a non-connected second screen while watching TV\footnote{See \url{http://www.lostremote.com/2011/10/13/what-tv-viewers-are-doing-on-their-tablets-smartphones/} and  \url{http://ovum.com/2011/10/04/unlocking-the-second-screen/}}. Our view was that if this could be automated or part-automated, there would be many opportunities for making television more interactive and informative, and also more social. The social aspect of TV watching comes from talking about the programme: opinions but also facts, connections and referencing related material on the Web. You can see the usecase illustration in Figure \ref{fig:more}. 
+The basis of our first prototype was: `Do you want to know more?', a reference to the film `Starship Troopers' in which each news item ends with various options for further related exploration, producing the possibility of a non-linear exploration through the available content. We wanted to create the means for viewers to explore what they are watching more deeply using a connected second screen. This type of exploration is a very common reason for using a non-connected second screen while watching TV\footnote{See \url{http://www.lostremote.com/2011/10/13/what-tv-viewers-are-doing-on-their-tablets-smartphones/} and  \url{http://ovum.com/2011/10/04/unlocking-the-second-screen/}}. Our view was that if this could be automated or part-automated, there would be many opportunities for making television more interactive and informative, and also more social. The social aspect of TV watching comes from talking about the programme: opinions but also facts, connections and referencing related material on the Web. An example usecase is illustrated in Figure \ref{fig:more}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -129,11 +129,11 @@ The basis of our first prototype was: `Do you want to know more?', a reference t
 \end{center}
 \end{figure} 
 
-Our goal was to use unique programme identification, combined with NoTube services, coupled with a connection to the TV, to produce relevant and interesting information about the programme being viewed, which could then be explored on a second screen, and shared. This turned out to be more difficult than we expected.
+Our goal was to use unique programme identification, combined with NoTube services, coupled with a direct connection to the TV, to produce relevant and interesting information about the programme being viewed. This information could then be explored on a second screen, and shared. This turned out to be more difficult than we expected.
 
 It was clear even at this early point in the project that second screens were the most appropriate mechanism from a user experience point of view for exploring programmes more deeply, including more socially. However, typically, consumer-orientated TVs and TV-like devices such as PVRs (Personal Video Recorders) only have one external-developer-accessible control interface, which is the infra-red remote control. For our prototype to work we needed both to be able to control the TV and also to be able to identify what programme was showing on the TV. In the past year this problem of synchronisation of screens has been tackled using work-arounds such as audio-watermarking\footnote{For example \url{http://www.bbc.co.uk/blogs/researchanddevelopment/2011/09/orchestrated-media-based-tv--.shtml}}. We took a more direct approach, and identified a TV software platform that we could develop with, which also had control and feedback APIs accessible to the more casual developer.
 
-Our first prototype was therefore a second screen application that worked with MythTV, an open source software TV receiver, to display information related to the programme. Instead of being specifically designed for any particular platform, we designed an API (`Buttons') to generalise over multiple devices and applications. We created a native iPhone application in order to use the device's capabilities for discovery of available TV devices. The underlying synchronisation platform was XMPP (Extensible Messaging and Presence Protocol), an XML messaging framework with identity, contact and group management. 
+Our first prototype was a second screen application that worked with MythTV, an open source software TV receiver, to display information related to the programme. Instead of being specifically designed for any particular platform, we designed an API (`Buttons') to generalise over multiple devices and applications. We were able to use MythTV's sockets API to find connect the two devices in both directions. We created a native iPhone application in order to use the device's capabilities for discovery of available TV devices. The underlying synchronisation platform was XMPP (Extensible Messaging and Presence Protocol), an XML messaging framework with identity, contact and group management. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -151,9 +151,10 @@ From this prototype we learned several things:
 \item{A substantial amount of infrastructure was missing to make social TV real beyond the obvious and already-existing techniques (such as having a `Twitter' or `Facebook' button)}
 \end{itemize}
 
-The main piece of infrastructure missing had to do with the specific identification of programmes. We needed the ability to go from the unique `crid' (Content Reference Identifier\footnote{\url{http://en.wikipedia.org/wiki/Content_Reference_Identifier}}) which is broadcast over the air as part of the EIT metadata (Event Information Table\footnote{\url{http://en.wikipedia.org/wiki/Program_and_System_Information_Protocol}}) to information that people could read or share. Heavily inspired by RadioDNS\footnote{\url{http://radiodns.org/}}, and collaborating with Mo McRoberts of Project Baird\footnote{\url{http://projectbaird.com/discovery/tvdns/}}, we wrote a resolver for BBC programmes that takes a crid and returns the unique BBC URL for the programme and vice-versa\footnote{\url{http://notube.tv/2010/08/26/connecting-broadcast-tv-and-the-web-using-a-resolver/}}, bridging the gap between the two worlds in the sense that if you have a BBC programmes URL and a DVB player you can play the video on it; and if you have the crid and the Web you can find out more about it, and share that link with others in social media.
+The main piece of infrastructure missing had to do with the specific identification of programmes. We needed the ability to go from the `CRID' (Content Reference Identifier\footnote{\url{http://en.wikipedia.org/wiki/Content_Reference_Identifier}}) which is broadcast over the air as part of the EIT metadata (Event Information Table\footnote{\url{http://en.wikipedia.org/wiki/Program_and_System_Information_Protocol}}) to information that people could read or share. Heavily inspired by RadioDNS\footnote{\url{http://radiodns.org/}}, and collaborating with Mo McRoberts of Project Baird\footnote{\url{http://projectbaird.com/discovery/tvdns/}}, we wrote a resolver for BBC programmes that takes a CRID and returns the unique BBC URL for the programme and vice-versa\footnote{\url{http://notube.tv/2010/08/26/connecting-broadcast-tv-and-the-web-using-a-resolver/}}, bridging the gap between the two worlds in the sense that if a user has the CRID and access to the Web they can find out more about the programme, and share that link with others using social media; and in some circumstances if they have the programmes URL they can also switch to watching the programme itself via the CRID.
+\\
 
-In order to be able to create prototypes quickly, after the first year we moved to HTML / Javascript using an XMPP backend infrastructure and APIs on top of that. We built some of the infrastructure we needed and tried to persuade people in the industry of the importance of URLs for programmes for social web communication, metadata as an advert for content, and the usefulness of APIs to TV.\footnote{\url{http://www.w3.org/2010/11/web-and-tv/papers/webtv2_submission_60.pdf}}
+In order to be able to create prototypes quickly, after the first year we moved to HTML / Javascript using an XMPP backend infrastructure, and APIs on top of that. We built some of the infrastructure we needed and tried to persuade people in the industry of the importance of URLs for programmes for social web communication, metadata as an advert for content, and the usefulness of APIs to TV.\footnote{\url{http://www.w3.org/2010/11/web-and-tv/papers/webtv2_submission_60.pdf}}
 
 Although we have created other prototypes to be used with live TV (for example, an application to allow real-time voting and visualisation of votes\footnote{\url{http://jabber.notu.be/thekilling/}}, Figure \ref{fig:votey}), and an autocompleting twitter API for TV\footnote{\url{http://notube.tv/2010/11/22/epg-autocompleter/}}, most effort after this period has been spent on considering the various problems of on-demand content, particularly the problem of choice within large corpuses of content. There are a number of interesting problems in this area, particularly as the number of on-demand videos is growing very rapidly\footnote{\url{http://www.cisco.com/en/US/solutions/collateral/ns341/ns525/ns537/ns705/ns827/white_paper_c11-481360_ns827_Networking_Solutions_White_Paper.html}}. This decision was also taken because of the problems we had creating reliable and sustainable demonstrators using the MythTV setup and the lack of alternatives for playing live TV, and that we could not make much more interesting progress in this area.
 
@@ -167,15 +168,18 @@ Although we have created other prototypes to be used with live TV (for example, 
 
 \section{On-Demand Prototypes}
 
-We have made two main prototypes in the on-demand area, both centred around problems of choice. When faced with a large number of potential options, many people find it difficult to choose, and give up quickly\footnote{see \url{http://flowtv.org/2010/10/choice-fatigue-community-and-the-mutations-of-television/} and \url{http://en.wikipedia.org/wiki/Least_objectionable_program}}. For video content owners this means that much of their content may never get the attention of people who are interested in it, either directly, or via social media sharing.
+We have made two main prototypes for on-demand video content, both centred around problems of choice. 
+\\
 
-The first prototype (`Archive Browser') was designed to test whether presenting related content could make people browse longer. The second one (`N-Screen') attempts to harness the `look what I found' impulse for the same purpose.
+When faced with a large number of potential options, many people find it difficult to choose, and give up quickly\footnote{see \url{http://flowtv.org/2010/10/choice-fatigue-community-and-the-mutations-of-television/} and \url{http://en.wikipedia.org/wiki/Least_objectionable_program}}. For video content owners this means that much of their content may never get the attention of people who are interested in it, either directly, or via social media sharing.
+
+The first prototype (`Archive Browser') was designed to test whether presenting \emph{related} content could make people browse longer. The second one (`N-Screen') attempts to harness the `look what I found' impulse for the same purpose.
 
 Both of these applications are Web-based, and can be used as second screen applications, with another web-page acting as the `TV'.
 
 \subsection{Archive Browser}
 
-The Archive Browser addresses the usecase of finding something interesting to watch later. It could be applicable to any on-demand archive, for example BBC's iPlayer system. It's illustrated in Figure \ref{fig:archive}.
+The Archive Browser addresses the usecase of finding something interesting to watch later. It could be applicable to any on-demand archive, for example BBC's iPlayer system. It is illustrated in Figure \ref{fig:archive}.
 
 \begin{figure}[htbp]
 \begin{center}
@@ -185,7 +189,9 @@ The Archive Browser addresses the usecase of finding something interesting to wa
 \end{figure} 
 
 
-This particular version is an HTML-based browser of a subset of BBC's Redux project\footnote{\url{http://www.bbc.co.uk/blogs/bbcinternet/2008/10/history_of_the_bbc_redux_proje.html}}. We designed it to test experimentally whether people spent more time browsing and adding to a playlist if related content was presented to them in a randomised trial using 90 volunteers from within the BBC. The results were inconclusive, although people liked the approach whichever group they were placed in -  but one interesting thing did emerge: people like having a `random' (or `shuffle') button\footnote{\url{http://notube.tv/2011/07/01/finding-interesting-new-programmes-trial-results/}}. We also made the data for this experiment open for others to download and use\footnote{\url{http://notube.tv/2011/02/15/linking-wikipedia-and-bbc-programmes/}}. We were also able to combine this prototype with the kt Korlex Korean Wordnet using mappings between the BBC's classifications system, Lonclass\footnote{\url{http://en.wikipedia.org/wiki/Lonclass}}, in order to be able to search and browse the subset of this archive in Korean (see Figure \ref{fig:korlex}).
+This particular version is an HTML-based browser of a subset of BBC's Redux project\footnote{\url{http://www.bbc.co.uk/blogs/bbcinternet/2008/10/history_of_the_bbc_redux_proje.html}}. We designed it to test experimentally whether people spent more time browsing and adding to a playlist if related content was presented to them.  We tested this iin a randomised trial using 90 volunteers from within the BBC. The results were inconclusive, although people liked the approach whichever group they were placed in. One interesting thing did emerge: people like having a `random' (or `shuffle') button\footnote{\url{http://notube.tv/2011/07/01/finding-interesting-new-programmes-trial-results/}}. 
+
+We also made the data for this experiment open for others to download and use\footnote{\url{http://notube.tv/2011/02/15/linking-wikipedia-and-bbc-programmes/}}. We were also able to combine this prototype with the kt Korlex Korean Wordnet using mappings between the BBC's classifications system, Lonclass\footnote{\url{http://en.wikipedia.org/wiki/Lonclass}}, in order to be able to search and browse the subset of this archive in Korean (see Figure \ref{fig:korlex}).
 
 \begin{figure}[htbp]
 \begin{center}
@@ -203,7 +209,7 @@ This particular version is an HTML-based browser of a subset of BBC's Redux proj
 
 \subsection{`N-Screen'}
 
-N-Screen explicitly addresses issues of choice in a social situation. Because people have preferences about each others' mental states as well as their own (i.e. they make decisions based on whether the other person will also enjoy a programme), choosing in small groups can be very difficult. The usecase is illustrated in Figure \ref{fig:nscreen_usecase}.
+N-Screen explicitly addresses issues of choice in a social situation. Because people have preferences about each others' mental states as well as their own (i.e. in small groups they make decisions based on whether other people present will also enjoy a programme), choosing in small groups can be very difficult. The usecase is illustrated in Figure \ref{fig:nscreen_usecase}.
 
 \begin{figure}[htbp]
 \begin{center}
@@ -212,11 +218,11 @@ N-Screen explicitly addresses issues of choice in a social situation. Because pe
 \end{center}
 \end{figure} 
 
-N-Screen is a second screen HTML / Javascript application that allows people to express their preferences to each other directly, by dragging and dropping items to each other individually or as a group. Group members can be in the same room or physically distant, and one or more TVs can be synced to watch together remotely. It is primarily for tablets and laptops, but runs on anything with a modern Web browser; from smartphones to touch-tables and desktop PCs. It is designed for multiple screens in use while watching TV, explicitly addressing the `second screen' issues (but taking it a logical step further), but also some of the social aspects of TV watching, ones that we believe have not been addressed elsewhere. We are also interested in, but have not yet tested, whether people will spend longer browsing when they have the opportunity to share what they have found with others.
+N-Screen is a second screen HTML / Javascript application that allows people to express their preferences to each other directly, by dragging and dropping items to each other individually or as a group. Group members can be in the same room or physically distant, and one or more TVs can be synced to watch together remotely. It is primarily for tablets and laptops, but runs on anything with a modern Web browser; from smartphones to touch-tables and desktop PCs. It is designed for multiple screens in use while watching TV. 
 
-We have made three different version of N-Screen with three different sets of content: Redux, TED Talks, and iPlayer\footnote{\url{http://notube.tv/2011/10/10/n-screen-a-second-screen-application-for-small-group-exploration-of-on-demand-content/}}, with different approaches to content to content recommendation encapsulated within each, depending on the data available\footnote{\url{http://notube.tv/2011/10/14/algorithms-for-recommendations-in-various-n-screen-implementations/}}. You can see a screenshot in Figure \ref{fig:nscreen}.
+We have made three different version of N-Screen with three different sets of content: Redux, TED Talks, and iPlayer\footnote{\url{http://notube.tv/2011/10/10/n-screen-a-second-screen-application-for-small-group-exploration-of-on-demand-content/}}, with different approaches to content to content recommendation encapsulated within each, depending on the data available\footnote{\url{http://notube.tv/2011/10/14/algorithms-for-recommendations-in-various-n-screen-implementations/}}. Figure \ref{fig:nscreen} is a screenshot of N-Screen.
 
-We are indebted to the VU for their work in arranging for design help, and to Fabrique\footnote{\url{http://www.fabrique.nl/}} for designs to improve the appearance of N-Screen.
+We are indebted to the VU for their work in arranging for design help, to Fabrique\footnote{\url{http://www.fabrique.nl/}} for designs to improve the appearance of N-Screen, and to Danny Ayers\footnote{\url{http://dannyayers.com}} for creating custom sounds to improve the drag and drop user experience.
 
 \begin{figure}[htbp]
 \begin{center}
@@ -232,16 +238,16 @@ Our final set of demonstrators starts to consider some of the problems with auth
 
 \subsection{TV Extras Authoring (`TEA')}
 
-TEA lets you author basic extras for the second screen, as you watch a video, using drag and drop from searches of the web. It is a web application built using HTML5. The usecases concern:
+TEA lets people author basic extras for the second screen, as they watch a video, by dragging and dropping links from the web into the correct position. It is a web application built using HTML5. The usecases we considered include:
 
 \begin{itemize}
 \item{Professional, common-place second screen content authoring within organisations}
 \item{Enthusiast annotation}
 \end{itemize}
 
-Currently we only address on-demand authoring. 
+Currently we only address authoring for on-demand video. 
 
-In the application, two or more people can see each others' suggestions for second screen links and review it. Either can then sync the video for playback, so they can review it together. Finally, they can save their work to an intermediate file format for playback on other devices. This intermediate file is in some ways the most interesting part, as it enables expert developers for particular platforms to create second screen playback tools without also having to handle the authoring side.
+In the application, two or more people can see each others' suggestions for second screen links as they are added in position, in real time. Either person can then sync the video for playback, so they can review it together. Finally, they can save their work to an intermediate file format for playback on other devices. This intermediate file is in some ways the most interesting part, as it enables expert developers for particular platforms to create second screen playback tools without also having to handle the authoring side.
 
 \begin{figure}[htbp]
 \begin{center}
@@ -260,12 +266,12 @@ TEAPlayer is an experimental iPhone application built with Phonegap\footnote{\ur
 \subfloat[TEAPlayer showing remote functionality]{
   \includegraphics[width=3in]{images/tea_player1.png}
 }
-\subfloat[TEAPlayer showing link appearing on second screebn]{
-  \includegraphics[width=3in]{images/tea_player2.png}
+\subfloat[TEAPlayer showing link appearing on second screen]{
+  \includegraphics[width=3in]{images/tea_player2.png}\label{fig:teaplayer}
 }
 
 
-  \label{fig:teaplayer}
+\caption{`TEAPlayer' - TV Extras Authoring Playback}
 \end{figure}
 
 

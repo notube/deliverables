@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.7.21)  21 OCT 2011 15:39
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.7.21)  26 OCT 2011 12:27
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -357,25 +357,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
  uk / blogs / researchanddevelopment / 2011 / 09 /
  []
 
-<images/year1.png, id=56, 334.3692pt x 188.8656pt>
-File: images/year1.png Graphic file (type png)
- <use images/year1.png>
 File: template-figures/notube-logo.png Graphic file (type png)
-
 <use template-figures/notube-logo.png> [8
 
 ]
 File: template-figures/notube-logo.png Graphic file (type png)
 
 <use template-figures/notube-logo.png> [9 <./images/more.png>]
+<images/year1.png, id=64, 334.3692pt x 188.8656pt>
+File: images/year1.png Graphic file (type png)
+ <use images/year1.png>
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]$\OT1/cmtt/m/n/10 http : / / notube . tv / 2010 / 08 / 26 / connecting -[] 
 broadcast -[] tv -[] and -[] the -[] web -[] using -[] a -[]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
 File: template-figures/notube-logo.png Graphic file (type png)
 <use template-figures/notube-logo.png> [10 <./images/year1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 [][]$\OT1/cmtt/m/n/10 http : / / www . cisco . com / en / US / solutions / coll
 ateral / ns341 / ns525 / ns537 / ns705 / ns827 /
  []
@@ -383,29 +387,34 @@ ateral / ns341 / ns525 / ns537 / ns705 / ns827 /
 <images/votey.png, id=68, 1008.76875pt x 499.8675pt>
 File: images/votey.png Graphic file (type png)
  <use images/votey.png>
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 [][]\OT1/cmr/m/n/10 see $\OT1/cmtt/m/n/10 http : / / flowtv . org / 2010 / 10 /
  choice -[] fatigue -[] community -[] and -[] the -[] mutations -[] of -[]
  []
 
 File: template-figures/notube-logo.png Graphic file (type png)
 <use template-figures/notube-logo.png> [11]
-<images/archive.jpg, id=72, 907.39pt x 583.17876pt>
+<images/archive.jpg, id=73, 907.39pt x 583.17876pt>
 File: images/archive.jpg Graphic file (type jpg)
  <use images/archive.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 [][]$\OT1/cmtt/m/n/10 http : / / www . bbc . co . uk / blogs / bbcinternet / 20
 08 / 10 / history _ of _ the _ bbc _ redux _ proje .
  []
 
-<images/notube-archive-browser.jpg, id=73, 569.12625pt x 293.095pt>
+<images/notube-archive-browser.jpg, id=74, 569.12625pt x 293.095pt>
 File: images/notube-archive-browser.jpg Graphic file (type jpg)
 
 <use images/notube-archive-browser.jpg>
-<images/korlex.png, id=74, 881.2925pt x 684.5575pt>
+<images/korlex.png, id=75, 881.2925pt x 684.5575pt>
 File: images/korlex.png Graphic file (type png)
  <use images/korlex.png>
-<images/nscreen_usecase.jpg, id=75, 898.35625pt x 588.1975pt>
+<images/nscreen_usecase.jpg, id=76, 898.35625pt x 588.1975pt>
 File: images/nscreen_usecase.jpg Graphic file (type jpg)
 
 <use images/nscreen_usecase.jpg>
@@ -419,59 +428,49 @@ File: template-figures/notube-logo.png Graphic file (type png)
 
 <use template-figures/notube-logo.png> [14 <./images/korlex.png> <./images/nscr
 een_usecase.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 [][]$\OT1/cmtt/m/n/10 http : / / notube . tv / 2011 / 10 / 10 / n -[] screen -[
 ] a -[] second -[] screen -[] application -[] for -[] small -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 [][]$\OT1/cmtt/m/n/10 http : / / notube . tv / 2011 / 10 / 14 / algorithms -[] 
 for -[] recommendations -[] in -[] various -[] n -[] screen -[]
  []
 
-<images/nscreen.png, id=89, 569.12625pt x 386.44376pt>
+<images/nscreen.png, id=90, 569.12625pt x 386.44376pt>
 File: images/nscreen.png Graphic file (type png)
 
 <use images/nscreen.png>
 File: template-figures/notube-logo.png Graphic file (type png)
  <use template-figures/notube-logo.png> [15 <./images/nscreen.png>] <images/tea
-.png, id=94, 866.23625pt x 666.49pt>
+.png, id=95, 866.23625pt x 666.49pt>
 File: images/tea.png Graphic file (type png)
 
 <use images/tea.png>
-
-Package caption Warning: \label before \caption on input line 268.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:teaplayer' on page 16 undefined on input line 256
-.
-
-<images/tea_player1.png, id=95, 284.7438pt x 213.1965pt>
+File: template-figures/notube-logo.png Graphic file (type png)
+ <use template-figures/notube-logo.png> [16 <./images/tea.png>] <images/tea_pla
+yer1.png, id=100, 284.7438pt x 213.1965pt>
 File: images/tea_player1.png Graphic file (type png)
 
 <use images/tea_player1.png>
-<images/tea_player2.png, id=96, 284.7438pt x 213.1965pt>
+<images/tea_player2.png, id=101, 284.7438pt x 213.1965pt>
 File: images/tea_player2.png Graphic file (type png)
 
 <use images/tea_player2.png>
-Overfull \hbox (11.11424pt too wide) in paragraph at lines 262--266
+Overfull \hbox (11.11424pt too wide) in paragraph at lines 268--272
 [][][] 
  []
 
 File: template-figures/notube-logo.png Graphic file (type png)
-<use template-figures/notube-logo.png> [16]
+<use template-figures/notube-logo.png> [17 <./images/tea_player1.png> <./images
+/tea_player2.png>]
 File: template-figures/notube-logo.png Graphic file (type png)
-
-<use template-figures/notube-logo.png> [17 <./images/tea.png> <./images/tea_pla
-yer1.png> <./images/tea_player2.png>]
-File: template-figures/notube-logo.png Graphic file (type png)
- <use template-figures/notube-logo.png>
-[18]
+ <use template-figures/notube-logo.png> [18]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--321
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
 
  []
 
@@ -483,20 +482,17 @@ File: template-figures/notube-logo.png Graphic file (type png)
 
 <use template-figures/notube-logo.png> [20] (./D7c.4.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3036 strings out of 493876
- 45452 string characters out of 1150568
+ 3037 strings out of 493876
+ 45471 string characters out of 1150568
  129071 words of memory out of 3000000
- 6241 multiletter control sequences out of 10000+50000
+ 6242 multiletter control sequences out of 10000+50000
  15704 words of font info for 59 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 44i,15n,45p,1180b,366s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,15n,45p,1220b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb></usr/local/texl
 ive/2008/texmf-dist/fonts/type1/bluesky/cm/cmbx8.pfb></usr/local/texlive/2008/t
@@ -512,7 +508,7 @@ dist/fonts/type1/bluesky/cm/cmsy10.pfb></usr/local/texlive/2008/texmf-dist/font
 s/type1/bluesky/cm/cmti12.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/b
 luesky/cm/cmtt10.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/am
 s/msam10.pfb>
-Output written on D7c.4.pdf (20 pages, 4190375 bytes).
+Output written on D7c.4.pdf (20 pages, 4190621 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
